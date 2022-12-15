@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: center;
+
+  justify-content: center;
+  background-color: #F55A5A;
+  height: 80px;
+}
+
+.header--text {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 18px;
+letter-spacing: -0.075em;
+padding: .5em;
+color: #FFFFFF;
+}
