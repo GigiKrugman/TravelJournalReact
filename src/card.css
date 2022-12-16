@@ -1,8 +1,34 @@
-.card-item {
-  position: absolute;
-width: 471px;
-height: 168px;
-left: 39px;
-top: 304px;
+.card--item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid red;
+  padding: 70px;
+}
 
+.card--image {
+  height: 200px;
+
+  display: flex;
+  margin-right: 15px;
+  border: 2px solid red;
+}
+
+.card--texts {
+  display: flex;
+  line-height: 2em;
+  flex-direction: column;
+  border: 2px solid red;
+}
+
+.card--description {
+  font-weight: 300;
+}
+
+.card--title {
+  font-weight: 700;
+}
+
+.card--location {
+  font-weight: lighter;
 }
